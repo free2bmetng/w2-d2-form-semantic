@@ -23,15 +23,39 @@
     </main>
 
     <footer>
-      <label for="email"
-        >Email
-        <input type="text" id="email" />
-      </label>
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" />
+      <form action="">
+        <label for="email"
+          >Email
+          <input
+            required
+            aria-required="true"
+            type="email"
+            name="email"
+            id="email"
+          />
+        </label>
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject" />
 
-      <label for="content">Content</label>
-      <input type="text" name="content" id="content" />
+        <label for="content">Content</label>
+        <input type="text" name="content" id="content" />
+
+        <input type="button" value="Submit this form" />
+      </form>
+
+      <button>Submit semantic</button>
+      <!-- <!-- dont use button outside of a form -->
+
+      <div class="btn">Sbmit the form</div>
+
+      <section class="mt5">
+        <p>test</p>
+        <input type="checkbox" name="box" id="box" checked="true" />
+        <input type="color" name="" id="color" />
+        <input type="date" name="" id="" />
+      </section>
+
+      <div class="mt5">..</div>
     </footer>
   </body>
 </html>

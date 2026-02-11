@@ -6,3 +6,16 @@ label {
     display: flex;
     flex-direction: column;
 }
+.btn{
+    background-color: rgb(240, 2240, 240);
+    width: 95px;
+    border: 1px solid black;
+    padding: 1px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+
+}
+
+,mt5{
+    margin-top: 100px;
+}
